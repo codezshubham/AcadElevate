@@ -32,6 +32,7 @@ AcadElevate is a comprehensive web application designed to streamline academic w
 - **Project Management**: Create, update, and manage academic projects.
 - **Event Management**: Create, display, RSVP, and manage academic events.
 - **Lecture Management**: Upload and track lectures, including RSVP functionality.
+- **Career Recommandation Engine**: Upload your updated resume, it will provide variuos career paths, strength and weeknesses.
 - **User Profile Management**:  Update user profiles, including uploading profile images.
 - **Responsive Design**:  The application is designed with Tailwind CSS to be responsive and accessible on different devices.
 - **Data Visualization**: Utilizes Recharts library to create insightful charts and stats for events and lectures.
