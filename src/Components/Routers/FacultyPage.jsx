@@ -12,6 +12,7 @@ import HomeEvent from '../Faculty/Event/HomeEvent';
 import ViewEvent from '../Faculty/Event/ViewEvent';
 import HomeLecture from '../Faculty/Lecture/HomeLecture';
 import FacFooter from '../Faculty/Footer/FacFooter';
+import ResumeUpload from '../Faculty/Career/ResumeUpload';
 
 const FacultyPage = () => {
   return (
@@ -29,6 +30,7 @@ const FacultyPage = () => {
           <Route path="event" element={<HomeEvent />} />
           <Route path="event/view/:eventId" element={<ViewEvent />} />
           <Route path="lecture" element={<HomeLecture />} />
+          <Route path="career" element={<ResumeUpload />} />
         </Routes>
         <Outlet /> {/* This will render any child route in this page */}
       </div>

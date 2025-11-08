@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useParams, NavLink } from 'react-router-dom';
-import { SlidersHorizontal } from 'lucide-react';
 import { Button } from '@mui/material';
-import { color } from 'framer-motion';
 
 const FacNavbar = () => {
   const { username, id } = useParams();
@@ -14,7 +12,7 @@ const FacNavbar = () => {
     { name: 'Projects', path: 'project' },
     { name: 'Events', path: 'event' },
     { name: 'Lectures', path: 'lecture' },
-    { name: 'Others', path: 'others' },
+    { name: 'Career', path: 'career' },
   ];
 
   return (

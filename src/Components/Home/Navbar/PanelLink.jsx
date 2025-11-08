@@ -5,7 +5,7 @@ import {
   FaProjectDiagram,
   FaCalendarCheck,
   FaChalkboardTeacher,
-  FaStar
+  FaUserGraduate
 } from 'react-icons/fa';
 
 const PanelLinks = ({ user }) => {
@@ -37,11 +37,12 @@ const PanelLinks = ({ user }) => {
       icon: <FaChalkboardTeacher className="text-pink-400" />
     },
     {
-      label: 'Other Contributions',
-      description: 'Record and manage additional academic contributions.',
-      path: '/others',
-      icon: <FaStar className="text-blue-400" />
-    },
+  label: 'Career Recommendation',
+  description: 'Upload your resume and generate a detailed faculty career roadmap.',
+  path: '/career',
+  icon: <FaUserGraduate className="text-green-400" />
+}
+
   ];
 
   const handleClick = (path) => {
